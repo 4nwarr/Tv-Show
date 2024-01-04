@@ -202,3 +202,7 @@ img {
     width: 60px;
     cursor: pointer;
 }
+
+a {
+    color: white;
+}

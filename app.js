@@ -128,7 +128,7 @@ const getShowDetails = async function (showID) {
             </div>
             <div class="container">
                 <h3>Homepage</h3>
-                <p>${homepage ? '<a src="${homepage}">homepage</a>' : "Not available"}</p>
+                <p>${homepage ? `<a href="${homepage}" target="_blank">${homepage}</a>` : "Not available"}</p>
             </div>
             <div class="container">
                 <h3>Overview</h3>
