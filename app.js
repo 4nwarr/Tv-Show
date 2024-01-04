@@ -128,7 +128,7 @@ const getShowDetails = async function (showID) {
             </div>
             <div class="container">
                 <h3>Homepage</h3>
-                <p>${homepage ? homepage : "Not available"}</p>
+                <p>${homepage ? <a src="${homepage}">homepage</a> : "Not available"}</p>
             </div>
             <div class="container">
                 <h3>Overview</h3>
