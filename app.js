@@ -155,7 +155,7 @@ const getShowDetails = async function (showID) {
                 </div>
             </div>
         </div>
-        <img src="./cross.png" class="cross">
+        <img src="./img/cross.png" class="cross">
     </div>
     `;
 
